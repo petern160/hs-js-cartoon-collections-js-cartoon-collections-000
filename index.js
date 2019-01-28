@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarf){
 var array =[]
 for (var i=0;i<dwarf.length;i++){
-	array.push([i+1] +" ." + dwarf[i])
+	array.push([i+1] +"." + dwarf[i])
 }
 return array.join('')
 }
