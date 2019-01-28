@@ -1,8 +1,8 @@
 
-function dwarfRollCall(dwarves){
+function dwarfRollCall(dwarf){
 	var array =[]
-	for (var i=0;i<dwarves.length;i++){
-		array.push([i+1] +". " + dwarves[i] + " " )
+	for (var i=0;i<dwarf.length;i++){
+		array.push([i+1] +". " + dwarf[i] + " " )
 	}
 	return array.join("")
 }
