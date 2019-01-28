@@ -5,15 +5,15 @@
    }
    return array
  }
- 
+
 
 function summonCaptainPlanet(planeteerCalls){
  return planeteerCalls.map(x=>x.toUpperCase()+"!")
- 
+
 }
 
 
- 
+
 function longPlaneteerCalls(words){
   for(var i=0;i<words.length;i++){
     if (words[i].length>4){
@@ -23,7 +23,7 @@ function longPlaneteerCalls(words){
   return false
 }
 
- 
+
   function findTheCheese (foods) {
   for(var i=0;i<foods.length;i++){
   if (foods[i]=="cheddar"
@@ -35,7 +35,7 @@ function longPlaneteerCalls(words){
 	}
 return "no cheese!"
 }
- 
- 
- 
+
+
+
  
