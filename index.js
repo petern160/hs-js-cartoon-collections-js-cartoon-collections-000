@@ -1,9 +1,41 @@
-function dwarfRollCall(dwarves){
-	var str = "";
-  var i;
-	for (i = 0; i < dwarves.length; i += 1){
-		str += (i + 1) + ". " + dwarves[i] + " ";
-		}
-	return str;
+	 function rollCall(dwarf){
+   var array =[]
+   for (var i=0;i<dwarf.length;i++){
+     array.push([i+1] +"." + dwarf[i])
+   }
+   return array
+ }
+ 
+
+function summonCaptainPlanet(planeteerCalls){
+ return planeteerCalls.map(x=>x.toUpperCase()+"!")
+ 
 }
+
+
+ 
+function longPlaneteerCalls(words){
+  for(var i=0;i<words.length;i++){
+    if (words[i].length>4){
+      return true
+    }
+  }
+  return false
 }
+
+ 
+  function findTheCheese (foods) {
+  for(var i=0;i<foods.length;i++){
+  if (foods[i]=="cheddar"
+    ||foods[i]=="gouda"
+    ||foods[i]=="camembert"
+  ) {
+    return foods[i]
+  	}
+	}
+return "no cheese!"
+}
+ 
+ 
+ 
+ 
